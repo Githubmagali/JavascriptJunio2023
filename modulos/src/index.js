@@ -15,7 +15,7 @@ console.log(datos.obtenerPosts());
 import obtenerUs from './defaultExport';
 console.log(obtenerUs());
 
-//Emty Export Carga todo el codigo pero sin hacer ningun objeto
+//Empty imports Carga todo el codigo pero sin hacer ningun objeto. Se suele usar cuando no trabajas con librerias o framework
 
 import'./emptyExport';
 
