@@ -20,18 +20,18 @@ console.log(contenedor1.parentElement);
 const varibleDiv = document.getElementsByTagName('div');
 console.log(varibleDiv);
 console.log(`Tenemos ${varibleDiv.length} divs en la pagina`);
-*/
+
 
 //getElementsByNAme Nos permite obtener una coleccion de elementos en base a su clase CSS
 
 const contenedor =document.getElementsByClassName('contenedor');
-//console.log(contenedor);
+console.log(contenedor);
 
 //QuerySelector Nos devuelve el PRIMER elemento que coincida con un selector estilo CSS
 //Devuelve un nodelist
 
 const variableQ= document.querySelector('#contenedor-principal .boton1');
-//console.log(variableQ);
+console.log(variableQ);
 
 //QuerySelectorAll Nos permite obtener una COLECCION de elementos en base a un selector estilo CSS
 
@@ -39,3 +39,14 @@ const vari = document.querySelectorAll('#contenedor1 .caja');
 console.log(vari);
 
 vari.forEach((caja) =>console.log(caja));
+
+//Closest Nos permite buscar de adentro hacia afuera en busca de un elemento
+
+const varC = document.querySelector('#contenedor2 .caja:last-child');
+console.log(varC);
+console.log(varC.closest('.contenedor-principal'));
+
+//Podemos encadenar todos los metodos Para obtener elementos
+*/
+const varEle = document.getElementById('contenedor2');
+console.log(contenedor2.querySelectorAll('.caja'));
