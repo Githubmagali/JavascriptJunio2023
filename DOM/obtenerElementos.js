@@ -1,5 +1,5 @@
 
-/*
+
 //getElementId Nos permite obtener un elemento en base a su atributo id
 
 //document.getElementById('contenedor1');
@@ -47,6 +47,6 @@ console.log(varC);
 console.log(varC.closest('.contenedor-principal'));
 
 //Podemos encadenar todos los metodos Para obtener elementos
-*/
+
 const varEle = document.getElementById('contenedor2');
 console.log(contenedor2.querySelectorAll('.caja'));
