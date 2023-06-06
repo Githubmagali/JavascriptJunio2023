@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="estilos.css" />
-		<script defer src="./eliminarElementos.js"></script>
+		<script defer src="./modificandoEstilos.js"></script>
 		<title>Document Object Model</title>
 	</head>
 	<body>
@@ -21,8 +21,10 @@
 				<div class="caja">Caja 3</div>
 			</div>
 
-			<button class="boton1" id="boton1"  onclick="eliminarCaja()">Eliminar caja</button>
-			<button id="boton2">Eliminar Evento</button>
+			<button class="boton1" id="boton1"  onclick="agregarClase()">Agregar clase</button>
+			<button class="boton2" id="boton2"onclick="eliminarClase()">Eliminar clase</button>
+			<button class="boton1" id="boton1"  onclick="toggleClase()">Toggle clase</button>
+			<button class="boton1" id="boton1"  onclick="comprobarClase()">Comprobar clase</button>
 		</div>
 	</body>
 </html>
