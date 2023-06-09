@@ -5,25 +5,25 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="estilos.css" />
-		<script defer src="./formularios.js"></script>
+		<script defer src="./validarFormularios.js"></script>
 		<title>Trabajando con Formularios</title>
 	</head>
 	<body>
 		<div class="contenedor">
 			<form id="formulario-donacion" action="" method="">
-				<input type="text" name="correo" id="correo" placeholder="correo@correo.com" />
-				<select name="pais" id="pais">
+				<input type="text" name="correoName" id="correo00" placeholder="correo@correo.com" />
+				<select name="paisName" id="pais">
 					<option selected disabled value="">Selecciona un país</option>
 					<option value="mexico">México</option>
 					<option value="españa">España</option>
 					<option value="argentina">Argentina</option>
 				</select>
 				<label for="cantidad-5">
-					<input type="radio" name="donacion00" id="cantidad-5" value="5" />
+					<input type="radio" name="donacionMonto" id="cantidad-5" value="5" />
 					5 usd
 				</label>
 				<label for="cantidad-10">
-					<input type="radio" name="donacion00" id="cantidad-10" value="10" />
+					<input type="radio" name="donacionMonto" id="cantidad-10" value="10" />
 					10 usd
 				</label>
 				<input type="date" name="fecha" id="fecha" />
