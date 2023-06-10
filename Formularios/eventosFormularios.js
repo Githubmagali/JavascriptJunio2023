@@ -28,10 +28,10 @@ formulario['cantidad-10'].addEventListener('change', ()=>{
     console.log('La cantidad es 5:');
 });
 
-//Eventofocus
+//Evento focus
 
 formulario.correoName.addEventListener('focus', ()=>{
-  console.log('El input esta fuera de foco');
+  console.log('El input esta dentro del focus');
 });
 
 //Evento blur 
@@ -40,6 +40,10 @@ formulario.correoName.addEventListener('blur', ()=>{
     console.log('El input ya no es el foco de atencion');
 });
 
-//Eventokey down Nos permite detectar cuando una tecla e spresionada sobr eun input
+//Evento keydown Nos permite detectar cuando una tecla e spresionada sobr eun input
 
 formulario.correoName.addEventListener('keydown', (e)=> console.log(e));
+
+//Evento keyup
+
+formulario.correoName.addEventListener('keyup', (e)=> console.log(e));
