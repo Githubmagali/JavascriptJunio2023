@@ -1,0 +1,11 @@
+
+{
+    "id":1,
+"nombre":"Carlos Arturo",
+"suscriptor_activo": true,
+"posts":[{ "id": 1,
+"titulo":"titulo del primer posts",
+"texto":"texto del primer pais..."
+}
+]
+}
